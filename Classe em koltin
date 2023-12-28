@@ -1,0 +1,14 @@
+class Customer
+
+class Contact(val id: Int, var email: String)
+
+fun main(){
+    val customer = Customer()
+    
+    val contact = Contact(1, "rainhalesa@arend elle.gov.ae")
+    
+    println(contact.id)
+    println(contact.email)
+    contact.email = "Arainhaelsa@arendelle.gov.ae"
+    println(contact.email)
+}
